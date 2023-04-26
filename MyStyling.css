@@ -11,6 +11,7 @@
     position: relative;
     min-height: 100vh;
     font-family: monospace;
+    /* background-color: gray; */
   }
   
   div {
@@ -18,7 +19,8 @@
   }
 
   h4 {
-    
+    color: aqua;
+
   }
 
   p {
@@ -58,6 +60,7 @@
     line-height: 60px;
     font-size: 14px;
     background-color: #FFC107;
+    /*background-color: aqua;*/
     color: #000000;
     text-align: center;
   }
@@ -71,10 +74,10 @@
     line-height: 60px;
     font-size: 14px;
     background-color: #FFC107;
+    /*background-color: aqua;*/
     color: #000000;
     text-align: center;
   }
-
 
   .toppenav {
     justify-content:start;
@@ -90,8 +93,6 @@
     width: 198px;
     margin: 20px;
     height: 400px;
-
-    
   }
 
   .card-text {
@@ -123,21 +124,20 @@
     font-family: monospace;
   }
 
-  .menyerH {
+  .menyer {
     justify-content: center;
     flex-direction: row;
     display: flex;
-  }
 
-  .menyerT {
-    justify-content: center;
-    flex-direction: row;
-    display: flex;
   }
-
+  .linkimenyt {
+    margin-top: -10px;
+    background-color: white;
+  }
   .linkimenyh {
-    margin: 10px;
-    
+   margin: 10px;
   }
 
- 
+  .test {
+    background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url();
+  }
