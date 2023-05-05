@@ -37,7 +37,6 @@
     color: #ccc;
     text-transform: uppercase;
     font-weight: 600;
-    transition: all 1s ease-in-out;
     position: relative;
   }
 
@@ -110,14 +109,16 @@
     height: 400px;
   }
 
+  .col {
+    width: 465px;
+  }
+
   .card-text {
     margin: 16px;
     font-size: 20px;
     color: #ccc;
     text-transform: uppercase;
     position: relative;
-
-
   }
 
 
@@ -150,6 +151,8 @@
   }
   .linkimenyt {
    margin-top: 60px;
+   margin-left: 10px;
+   margin-right: 10px;
   }
   .linkimenyh {
    margin: 10px;
