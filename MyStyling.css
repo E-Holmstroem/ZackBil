@@ -11,11 +11,19 @@
     position: relative;
     min-height: 100vh;
     font-family: monospace;
-    /* background-color: gray; */
+    background-color: #101724;
   }
   
   div {
     text-align: center;
+  }
+
+  h1 {
+    z-index: -99;
+    color: #ccc;
+    font-family: 'Great Vibes', cursive;
+    font-size: 80px;
+    margin-left: -30px;
   }
 
   h4 {
@@ -25,7 +33,7 @@
 
   p {
     margin: 16px;
-    font-size: 96px;
+    font-size: medium;
     color: #ccc;
     text-transform: uppercase;
     font-weight: 600;
@@ -34,8 +42,8 @@
   }
 
   a {
-    color: grey;
-    background-color: white;
+    color: #ccc;
+    background-color: #1f3b69;
     padding: 10px;
     margin-left: 20px;
     margin-right: 20px;
@@ -44,6 +52,11 @@
     border-color: grey;
     position: relative;
     width: 125px;
+  }
+
+  a:hover {
+    background-color: #ccc;
+    color: #101724;
   }
   
   nav {
@@ -59,10 +72,12 @@
     height: 60px;
     line-height: 60px;
     font-size: 14px;
-    background-color: #FFC107;
-    /*background-color: aqua;*/
-    color: #000000;
+    /*background-color: #FFC107;*/
+    background-color: #1f3b69;
+    color: #ccc;
     text-align: center;
+    border-top-style: groove;
+    border-top-color: #ccc;
   }
  
   header {
@@ -73,10 +88,12 @@
     height: 60px;
     line-height: 60px;
     font-size: 14px;
-    background-color: #FFC107;
-    /*background-color: aqua;*/
-    color: #000000;
+    /*background-color: #FFC107; */
+    background-color: #1f3b69;
+    color: #ccc;
     text-align: center;
+    border-bottom-style: groove;
+    border-bottom-color: #ccc;
   }
 
   .toppenav {
@@ -105,13 +122,16 @@
 
   }
 
+
   .card-img-top {
     height: 200px;
   }
 
   .logo {
-    width: 100%;
-   
+    width: 465px;
+    margin: -240px;
+    
+    height: 100%;
   }
 
   .menybody {
@@ -131,13 +151,8 @@
 
   }
   .linkimenyt {
-    margin-top: -10px;
-    background-color: white;
+   margin-top: -10px;
   }
   .linkimenyh {
    margin: 10px;
-  }
-
-  .test {
-    background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url();
   }
