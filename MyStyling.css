@@ -121,6 +121,27 @@
     position: relative;
   }
 
+  .tjänstebild {
+    width: 400px;
+    margin-bottom: -50px;
+    border-radius: 25px;
+    height: 375px;
+    margin-top: 20px;
+  }
+
+  .tjänstetext {
+    color: #ccc;
+    margin-right: 0px;
+    margin-left: 18px;
+    border-radius: 0px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-style: solid;
+    border-color: grey;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+  }
 
   .card-img-top {
     height: 200px;
