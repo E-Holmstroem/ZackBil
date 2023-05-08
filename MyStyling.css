@@ -26,11 +26,6 @@
     margin-left: -30px;
   }
 
-  h4 {
-    color: aqua;
-
-  }
-
   p {
     margin: 16px;
     font-size: medium;
@@ -63,7 +58,7 @@
   }
 
   footer {
-    position: absolute;
+    position: sticky;
     overflow: auto;
     font-size: 12px;
     bottom: 0;
@@ -76,10 +71,11 @@
     text-align: center;
     border-top-style: groove;
     border-top-color: #ccc;
+    z-index: 99;
   }
  
   header {
-    position: absolute;
+    position: sticky;
     font-size: 12px;
     top: 0;
     width: 100%;
@@ -91,6 +87,7 @@
     text-align: center;
     border-bottom-style: groove;
     border-bottom-color: #ccc;
+    z-index: 99;
   }
 
   .toppenav {
@@ -103,23 +100,14 @@
     justify-content: center;
   }
 
-  .card {
-    width: 198px;
-    margin: 20px;
-    height: 400px;
-  }
-
   .col {
-    width: 465px;
+    width: 480px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
   }
 
-  .card-text {
-    margin: 16px;
-    font-size: 20px;
-    color: #ccc;
-    text-transform: uppercase;
-    position: relative;
-  }
+  
 
   .tjänstebild {
     width: 400px;
@@ -127,12 +115,16 @@
     border-radius: 25px;
     height: 375px;
     margin-top: 20px;
+    display: flex;
+    margin-left: 0px;
+    flex-direction: column;
   }
 
   .tjänstetext {
     color: #ccc;
     margin-right: 0px;
-    margin-left: 18px;
+    margin-left: 0px;
+    margin-bottom: 15px;
     border-radius: 0px;
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
@@ -140,6 +132,7 @@
     border-color: grey;
     display: flex;
     flex-direction: column;
+    
     width: 400px;
   }
 
@@ -177,4 +170,8 @@
   }
   .linkimenyh {
    margin: 10px;
+  }
+
+  .he {
+    position: absolute;
   }
