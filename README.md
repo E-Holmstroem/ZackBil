@@ -1,8 +1,6 @@
 # ZackBil
 
-Repository hosting files for my version of the ZackBil.se website.
-
-Here you can find the [original](http://www.zackbil.se), and here the [changed](HEM-zackbil.html)
+Repository hosting files for my version of the [Zackbil.se](http://www.zackbil.se) website.
 
 ### Executing program
 
