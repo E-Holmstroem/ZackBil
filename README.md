@@ -1,12 +1,6 @@
 # ZackBil
 
-Repository hosting files for my version of the ZackBil.se website.
-
-### Executing program
-
-* Fork repository
-* Clone onto local machine
-* Run HEM-zackbil.html
+Repository hosting files for [my version](https://e-holmstroem.github.io/ZackBil/) of the [Zackbil.se](http://www.zackbil.se) website.
 
 ## Authors
 
