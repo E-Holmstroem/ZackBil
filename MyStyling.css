@@ -26,9 +26,21 @@
     margin-left: -30px;
   }
 
+  h2 {
+    color: #ccc;
+    font-family: 'Great Vibes', cursive;
+    font-size: 60px;
+    margin-bottom: -120px;
+  }
+
+  h3 {
+    color: #ccc;
+    font-family: 'Great Vibes', cursive;
+  }
+
   p {
     margin: 16px;
-    font-size: medium;
+    font-size:large;
     color: #ccc;
     text-transform: uppercase;
     font-weight: 600;
@@ -47,6 +59,20 @@
     position: relative;
     width: 125px;
   }
+
+  .notabutton {
+    color: blue;
+    background-color: #ccc;
+    padding: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    border-radius: 0px;
+    border-style: none;
+    border-color: none;
+    position: none;
+    width: 0px;
+  }    
+
 
   a:hover {
     background-color: #ccc;
@@ -101,49 +127,45 @@
   }
 
   .col {
-    width: 480px;
+    width: 500px;
     justify-content: center;
     display: flex;
     flex-direction: column;
+
   }
 
   
 
   .tjänstebild {
     width: 400px;
-    margin-bottom: -50px;
-    border-radius: 25px;
     height: 375px;
     margin-top: 20px;
-    display: flex;
+    margin-bottom: -50px;
     margin-left: 0px;
+    margin-right: 0px;
+    border-radius: 25px;
+    display: flex;
     flex-direction: column;
   }
 
   .tjänstetext {
-    color: #ccc;
-    margin-right: 0px;
-    margin-left: 0px;
+    width: 400px;
     margin-bottom: 15px;
+    margin-left: 0px;
+    margin-right: 0px;
     border-radius: 0px;
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
     border-style: solid;
     border-color: grey;
+    color: #ccc;
     display: flex;
     flex-direction: column;
-    
-    width: 400px;
-  }
-
-  .card-img-top {
-    height: 200px;
   }
 
   .logo {
     width: 465px;
     margin: -240px;
-    
     height: 100%;
   }
 
@@ -163,11 +185,13 @@
     display: flex;
 
   }
+
   .linkimenyt {
    margin-top: 60px;
    margin-left: 10px;
    margin-right: 10px;
   }
+  
   .linkimenyh {
    margin: 10px;
   }
