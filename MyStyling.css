@@ -61,8 +61,8 @@
   }
 
   .notabutton {
-    color: blue;
-    background-color: #ccc;
+    color: purple;
+    background-color: #101724;
     padding: 0px;
     margin-left: 0px;
     margin-right: 0px;
@@ -71,6 +71,7 @@
     border-color: none;
     position: none;
     width: 0px;
+
   }    
 
 
@@ -131,10 +132,7 @@
     justify-content: center;
     display: flex;
     flex-direction: column;
-
   }
-
-  
 
   .tjänstebild {
     width: 400px;
@@ -183,13 +181,13 @@
     justify-content: center;
     flex-direction: row;
     display: flex;
-
   }
 
   .linkimenyt {
    margin-top: 60px;
    margin-left: 10px;
    margin-right: 10px;
+   z-index: 99;
   }
   
   .linkimenyh {
