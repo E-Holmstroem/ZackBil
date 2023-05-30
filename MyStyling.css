@@ -72,7 +72,7 @@
   }
 
   a:hover {
-    color: #101724;
+    color: #ccc;
   }
   /*
   .row div:hover{
@@ -159,6 +159,18 @@
     margin-right: 15px;
     border-radius: 25px;
     border-style: outset;
+  }
+
+  .tjänstetext {
+    margin-top: -70px;
+    margin-bottom: 15px;
+    color: #ccc;
+    text-shadow: 2px 2px #1f3b69;
+    font-size: 40px;
+  }
+
+  .tjänstebild:hover {
+    border-color: red;
   }
 
   .logo {
