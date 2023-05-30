@@ -1,3 +1,4 @@
+  
   * {
     padding: 0;
     margin: 0;
@@ -12,6 +13,7 @@
     min-height: 100vh;
     font-family: monospace;
     background-color: #101724;
+    
   }
   
   div {
@@ -19,36 +21,165 @@
   }
 
   h1 {
-    z-index: -99;
+    z-index: 99;
     color: #ccc;
-    font-family: 'Great Vibes', cursive;
+    font-family: 'Bebas Neue', 'Josefin Sans', 'Great Vibes', cursive;
     font-size: 80px;
-    margin-left: -30px;
+    /*margin-left: -30px;*/
+    margin-top: 15px;
+    text-shadow: 2px 2px #1f3b69;
   }
 
   h2 {
     color: #ccc;
-    font-family: 'Great Vibes', cursive;
+    font-family: 'Bebas Neue', 'Josefin Sans', 'Great Vibes', cursive;
     font-size: 60px;
     margin-bottom: -120px;
+    text-shadow: 2px 2px #1f3b69;
   }
 
   h3 {
     color: #ccc;
-    font-family: 'Great Vibes', cursive;
+    font-family: 'Bebas Neue', 'Josefin Sans', 'Great Vibes', cursive;
+    text-shadow: 2px 2px #1f3b69;
   }
 
   p {
-    margin: 16px;
+    margin: 0px;
     font-size:large;
     color: #ccc;
     text-transform: uppercase;
     font-weight: 600;
     position: relative;
+    text-shadow: 2px 2px #1f3b69;
   }
 
-  a {
+  hr {
+    display: block;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+    width: 80%;
     color: #ccc;
+    z-index: 9;
+  }
+
+  #f {
+    margin-top: 100px;
+  }
+
+  a:hover {
+    color: #101724;
+  }
+  /*
+  .row div:hover{
+    transform: rotate(360deg);
+    
+  }*/
+
+  .navbar {
+    background-color: #1f3b69;
+    position: fixed;
+    align-items: baseline;
+    border-bottom-style: outset;
+    border-top-style: outset;
+    border-color: #ccc;
+    z-index: 999;
+  }
+
+  .btn {
+    background-color: #101724;
+    border-style: outset;
+    border-color: #ccc;
+    color: #ccc;
+    width: 100px;
+  }
+
+  .dropdown-item {
+    border-style: outset;
+    border-color: black;
+    color: #ccc;
+  }
+
+  .dropdown-subitem {
+    margin-left: 15px;
+    color: bisque;
+  }
+
+  .dropdown-menu {
+    background-color: #1f3b69;
+    border-color: #ccc;
+    border-style: outset;
+  }
+
+  .caro-img {
+    width: 80%;
+    height: 400px;
+  }
+  
+  footer {
+    position: absolute;
+    overflow: visible;
+    font-size: 12px;
+    bottom: 0;
+    width: 100%;
+    line-height: 60px;
+    font-size: 14px;
+    background-color: #1f3b69;
+    color: #ccc;
+    text-align: center;
+    border-top-style: groove;
+    border-top-color: #ccc;
+    z-index: 99;
+  }
+
+  .footseperator {
+    margin-top: 350px;
+  }
+  
+  .toppenav {
+    justify-content:start;
+  }
+
+  .row {
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+  }
+ 
+  .tjänstebild {
+    width: 400px;
+    height: 375px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 25px;
+    border-style: outset;
+  }
+
+  .logo {
+    /*width: 465px;*/
+    width: 1000px;
+    margin-bottom: -750px;
+    margin-top: -600px;
+    z-index: -99;
+    height: 100%;
+  }
+
+  .menyer {
+    justify-content: center;
+    flex-direction: row;
+    display: flex;
+  }
+
+  .linkimenyh {
+   margin: 10px;
+
+   color: #ccc;
     background-color: #1f3b69;
     padding: 10px;
     margin-left: 20px;
@@ -60,140 +191,7 @@
     width: 125px;
   }
 
-  .notabutton {
-    color: purple;
-    background-color: #101724;
-    padding: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
-    border-radius: 0px;
-    border-style: none;
-    border-color: none;
-    position: none;
-    width: 0px;
+  .LiteMeranNera {
+    margin-bottom: -195px;
 
-  }    
-
-
-  a:hover {
-    background-color: #ccc;
-    color: #101724;
-  }
-  
-  nav {
-    padding: 16px;
-  }
-
-  footer {
-    position: sticky;
-    overflow: auto;
-    font-size: 12px;
-    bottom: 0;
-    width: 100%;
-    height: 60px;
-    line-height: 60px;
-    font-size: 14px;
-    background-color: #1f3b69;
-    color: #ccc;
-    text-align: center;
-    border-top-style: groove;
-    border-top-color: #ccc;
-    z-index: 99;
-  }
- 
-  header {
-    position: sticky;
-    font-size: 12px;
-    top: 0;
-    width: 100%;
-    height: 60px;
-    line-height: 60px;
-    font-size: 14px;
-    background-color: #1f3b69;
-    color: #ccc;
-    text-align: center;
-    border-bottom-style: groove;
-    border-bottom-color: #ccc;
-    z-index: 99;
-  }
-
-  .toppenav {
-    justify-content:start;
-  }
-
-  .row {
-    flex-direction: row;
-    display: flex;
-    justify-content: center;
-  }
-
-  .col {
-    width: 500px;
-    justify-content: center;
-    display: flex;
-    flex-direction: column;
-  }
-
-  .tjänstebild {
-    width: 400px;
-    height: 375px;
-    margin-top: 20px;
-    margin-bottom: -50px;
-    margin-left: 0px;
-    margin-right: 0px;
-    border-radius: 25px;
-    display: flex;
-    flex-direction: column;
-  }
-
-  .tjänstetext {
-    width: 400px;
-    margin-bottom: 15px;
-    margin-left: 0px;
-    margin-right: 0px;
-    border-radius: 0px;
-    border-bottom-left-radius: 25px;
-    border-bottom-right-radius: 25px;
-    border-style: solid;
-    border-color: grey;
-    color: #ccc;
-    display: flex;
-    flex-direction: column;
-  }
-
-  .logo {
-    width: 465px;
-    margin: -240px;
-    height: 100%;
-  }
-
-  .menybody {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    min-height: 100vh;
-    font-family: monospace;
-  }
-
-  .menyer {
-    justify-content: center;
-    flex-direction: row;
-    display: flex;
-  }
-
-  .linkimenyt {
-   margin-top: 60px;
-   margin-left: 10px;
-   margin-right: 10px;
-   z-index: 99;
-  }
-  
-  .linkimenyh {
-   margin: 10px;
-  }
-
-  .he {
-    position: absolute;
   }

@@ -9,18 +9,84 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <style>
+          @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+          </style>
+        <style>
+          @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+          </style>
         <style>
           @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
         </style>
     </head>
 
-    <body class="menybody">
+    <body class="toppenav">
 
-      <header class="he">
-        Öppettider: Mån - Fre 08-18 | Lör: 10-16 | Sön stängt
-      </header>
+      <!--Navbar-->
 
+      <nav class="navbar navbar-dark w-100">
+        <a class="navbar-brand" href="#f">
+          <img src="bilder/iconyippie.png" width="30" height="30" class="d-inline-block align-top" alt="Zackbil icon">
+          ZackBil
+        </a>
+
+        
+        <div class="dropdown">
+          <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <p>Meny</p>
+          </button>
+          <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="#f"><p>Hem</p></a>
+            <a class="dropdown-item" href="#Tjänster"><p>Tjänster</p></a>
+              <a class="dropdown-item dropdown-subitem" href="https://www.bytbil.com/" target="_blank"><p>Köp Bil</p></a>
+              <a class="dropdown-item dropdown-subitem" href="https://www.dackonline.se/" target="_blank"><p>Köp Däck</p></a>
+              <a class="dropdown-item dropdown-subitem" href="sub-tjänster\TJÄNSTER-sälj-zackbil.html"><p>Sälj Bil</p></a>
+              <a class="dropdown-item dropdown-subitem" href="sub-tjänster\TJÄNSTER-finans-zackbil.html"><p>Finans</p></a>
+              <a class="dropdown-item dropdown-subitem" href="sub-tjänster\TJÄNSTER-service-zackbil.html"><p>Service</p></a>
+            <a class="dropdown-item" href="#Omoss"><p>Om oss</p></a>
+          </div>
+        </div>
+      
+
+      <!--
+        <div class="navbar-collapse" id="menu">
+  <ul class="navbar-nav">
+    <li class="nav-item dropdown">
+      <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Games</a>
+      <ul class="dropdown-menu games-menu">
+        <li><a href="latest.html" class="dropdown-item">Latest</a></li>
+        <li><a href="best_selling.html" class="dropdown-item">Best Selling</a></li>
+        <div class="dropdown">
+          <li class="sub-menu"><a href="#" class="dropdown-item dropdown-toggle" data-toggle="dropdown">Our Pick</a>
+            <ul class="dropdown-menu games-menu">
+              <li><a href="2019.html" class="dropdown-item">2019</a></li>
+              <li><a href="2020.html" class="dropdown-item">2020</a></li>
+              <div class="dropdown">
+                <li class="sub-menu2"><a href="#" class="dropdown-item dropdown-toggle our-pick-2" data-toggle="dropdown">Our Pick 2</a>
+                  <ul class="dropdown-menu our-pick-menu">
+                    <li><a href="2019.html" class="dropdown-item">2021</a></li>
+                    <li><a href="2020.html" class="dropdown-item">2022</a></li>
+                  </ul>
+                </li>
+              </div>
+            </ul>
+          </li>
+        </div>
+
+      </ul>
+    </li>
+  </ul>
+</div>
+        -->
+      </nav>
+
+      <!--Main skärmen-->
     
+      <hr id="f">
+
       <div class="row-8">
         <img src="bilder/loggam.png" class="logo">
         <h1>Zackbil</h1>
@@ -31,21 +97,100 @@
           <section>
             <nav>
               <div class="menyer">
-                <a class="linkimenyh" href='HEM-zackbil.html' data-item='hem'>HEM</a>
-                <a class="linkimenyh" href='TJÄNSTER-zackbil.html' data-item='tjänster'>TJÄNSTER</a>
-                <a class="linkimenyh" href='OM OSS-zackbil.html' data-item='omoss'>OM OSS</a>
+                <a class="linkimenyh" href="#f" data-item='hem'>HEM</a>
+                <a class="linkimenyh" href="#Tjänster" data-item='tjänster'>TJÄNSTER</a>
+                <a class="linkimenyh" href="#Omoss" data-item='omoss'>OM OSS</a>
               </div>
             </nav>
-            <div class="text-center">
-              <p><br><br> Zackbil &Däckservice AB <br> Svenljungavägen 5 | 516 77 Målsryd <br> Tel: 033-417455 | Mobil: 0704-301526 <br> E-post: info@zackbil.se </p>
-            </div>
           </section>
-        </div>     
+        </div>
+             
+      </div>
+
+
+      <hr id="Tjänster">
+
+      <!--Tjänster-->
+
+      <h1>Tjänster</h1>
+
+    <div class="col" >
+      <div class="row">
+      
+        <div>
+           
+          <a href="https://www.bytbil.com/" target="_blank" class="tjänstetext"><p class="LiteMeranNera">Köp en Bil</p><img src="bilder/köp-bil.webp" class="tjänstebild"></a>
+        </div>
+
+        <div>
+          <a href="https://www.dackonline.se/" target="_blank" class="tjänstetext"><img src="bilder/köp-däck.jpg" class="tjänstebild"></a>
+        </div>
+      
+        <div>
+          <a href="sub-tjänster\TJÄNSTER-sälj-zackbil.html" class="tjänstetext"><img src="bilder/sälj-bil.jpg" class="tjänstebild"></a>
+        </div>
 
       </div>
-    
+      <div class="row">
 
-      <footer class="he"></footer>
-     
+        <div>
+          <a href="sub-tjänster\TJÄNSTER-finans-zackbil.html" class="tjänstetext"><img src="bilder/finans.jpg" class="tjänstebild"></a>
+        </div>
+      
+        <div>
+          <a href="sub-tjänster\TJÄNSTER-service-zackbil.html" class="tjänstetext"><img src="bilder/service.jpg" class="tjänstebild"></a>
+        </div>
+    </div>
+
+    <hr id="Omoss">
+
+    <!--Om företaget-->
+
+    <div class="col">
+
+      <h1>Om Oss</h1>
+        <br>
+        <div class="col w-80">
+        <p>Zackbil och däckservice AB är en märkesoberoende företag som säljer bil och däck till kunder i hela Sverige.
+          och DäckserviceAB är ett väl etableratföretag som funnits i samma regi sedan 1998.
+          öretaget startade som Sams Bil & Däckservice men efter ombildningen till aktiebolag byttes namnet till det nuvarande.
+          Vi har trogna och nöjda kunder från både när och fjärran som upptäckt våra låga priser på både bilar och däck. 
+          Genom låga omkostnader kan vi erbjuda kvalitetsbilar samt nya och begagnade däck med stål eller aluminiumfälgar till bra priser.
+            <br><br> 
+          Vi utför även service och lättare reparationer till en förmånligt pris
+          <br><br>
+        </div>
+        </p>
+
+        <div class="col">
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel" data-interval="2500">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="caro-img" src="bilder/bilbanner.png" alt="First slide">
+            </div>
+            <div class="carousel-item">
+              <img class="caro-img" src="bilder/bilpark.jpg" alt="Second slide">
+            </div>
+            <div class="carousel-item">
+              <img class="caro-img" src="bilder/omoss3.jpg" alt="Third slide">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+      
+    <hr>
+    
+    <!--Footer-->
+    <div class="footseperator"><br></div>
+
+     <footer>
+      <div class="text-center">
+        <p>Zackbil &Däckservice AB <br> Svenljungavägen 5 | 516 77 Målsryd <br> Tel: 033-417455 | Mobil: 0704-301526 <br> E-post: info@zackbil.se </p>
+        <p>Öppettider: Mån - Fre 08-18 | Lör: 10-16 | Sön stängt</p>
+      </div>
+     </footer>
+
     </body>
 </html>
