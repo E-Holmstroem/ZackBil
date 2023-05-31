@@ -34,14 +34,21 @@
     color: #ccc;
     font-family: 'Bebas Neue', 'Josefin Sans', 'Great Vibes', cursive;
     font-size: 60px;
-    margin-bottom: -120px;
+    margin-bottom: 120px;
     text-shadow: 2px 2px #1f3b69;
+    text-align: center;
   }
 
   h3 {
     color: #ccc;
     font-family: 'Bebas Neue', 'Josefin Sans', 'Great Vibes', cursive;
     text-shadow: 2px 2px #1f3b69;
+    
+  }
+
+  .h3 {
+    margin-top: -75px;
+    margin-bottom: 50px;
   }
 
   p {
@@ -52,6 +59,7 @@
     font-weight: 600;
     position: relative;
     text-shadow: 2px 2px #1f3b69;
+    text-align: center;
   }
 
   hr {
@@ -153,11 +161,9 @@
   .tjänstebild {
     width: 400px;
     height: 375px;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    margin-left: 15px;
-    margin-right: 15px;
+    margin: 10px;
     border-radius: 25px;
+    padding: 0px;
     border-style: outset;
   }
 
@@ -174,11 +180,12 @@
   }
 
   .logo {
+    
     max-width: 1000px;
     max-height: 100vh;
     margin: auto;
-    /*margin-bottom: -750px;
-    margin-top: 150px;
+    margin-bottom: -400px;
+    margin-top: 0px;
     z-index: -99;
     /*position: relative;
     width: 80%;
@@ -199,10 +206,11 @@
   }
 
   .linkimenyh {
+    width: 100px;
     max-width: 125px;
     max-height: 100vh;
     margin: 5px;
-    width: 80%;
+    
 
     color: #ccc;
     background-color: #1f3b69;
@@ -220,4 +228,8 @@
   .width {
     width: 80%;
    
+  }
+
+  #Tjänster {
+    margin-top: 300px;
   }
